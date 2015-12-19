@@ -1,0 +1,54 @@
+iframe{
+    pointer-events:none;
+}
+.sidebar{
+   float:left;
+    width: 280px;
+    height: 100%;
+    padding: 5px;
+    border: 0px solid gray;
+    overflow: hidden;
+    position: relative;
+
+}
+.video_container{
+	position:absolute;
+	top:200px;
+	left:400px;
+}
+
+
+.ui-resizable-helper {
+    border: 1px dotted gray;
+}
+.resizable {
+    float:left;
+    width: 180px;
+    height: 150px;
+    padding: 10px;
+    border: 0px solid gray;
+    overflow: hidden;
+    position: relative;
+}
+iframe {
+    width: 100%;
+    height: 100%;
+}
+.resizable1 {
+    float:left;
+    width: 240px;
+    height: 150px;
+    padding: 10px;
+    border: 0px solid gray;
+    overflow: hidden;
+    position: relative;
+}
+.resizable2 {
+    float:left;
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border: 0px solid gray;
+    overflow: hidden;
+    position: relative;
+}
