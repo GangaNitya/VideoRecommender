@@ -16,13 +16,6 @@ else
 	//echo "Connection is successful";
 }
 
-/*$insert_sql = "INSERT INTO recipes(cid,rname,ingredients,quantities,method) VALUES(1,'{$rname}','{$ingredients}','{$quantities}','{$method}')";
-echo $insert_sql;
-*/
-
-//mysqli_query($connection,$insert_sql);
-
-
 ?>
 <?php
 function confirm_query($result_set){
